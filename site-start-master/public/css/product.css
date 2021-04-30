@@ -55,11 +55,11 @@
 }
 
 .detail-body-description {
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
     margin-left: 10%;
     box-sizing: border-box;
-    line-height: 20px;
+    line-height: 21px;
 }
 
 .detail-body-description span {
