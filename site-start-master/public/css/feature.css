@@ -1,0 +1,161 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+#main {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #fffff9;
+}
+
+.fen {
+    display: flex;
+    margin-top: 32px;
+}
+
+
+.feature-image img {
+    width: 100%;
+}
+
+.feature {
+    margin: 0 16%;
+}
+
+.feature-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.feature-title span {
+    display: block;
+    font-size: 56px;
+}
+
+.feature-item {
+    font-size: 28px;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.feature-text {
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.recommend {
+    margin-top: 64px;
+}
+
+.recommend-title {
+    border-bottom: 3px solid #d3cac8;
+    font-size: 36px;
+    color: #800000;
+    padding-top: 24px;
+    margin-left: 16%;
+    margin-right: 16%;
+    text-align: center;
+}
+
+.recommend-body {
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+
+.recommend-body-section {
+    display: flex;
+}
+
+.recommend-body-title {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.recommend-body-title span {
+    margin-left: 16px;
+}
+
+.recommend-body-container {
+    margin-top: 24px;
+    overflow: hidden;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.recommend-body-image {
+    float: left;
+    padding-right: 5%;
+}
+
+.recommend-body-image img {
+    vertical-align: bottom;
+}
+
+.recommend-body-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.related {
+    margin-top: 80px;
+}
+
+.related-title {
+    border-bottom: 3px solid #d3cac8;
+    padding-top: 24px;
+    margin-left: 16%;
+    margin-right: 16%;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.related-container {
+    display: flex;
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.related-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+
+.related-body-image {
+    text-align: center;
+}
+
+.related-body-image img {
+    max-width: 92%;
+}
+
+.related-body-text {
+    font-size: 14px;
+    vertical-align: top;
+    margin: 0 4%;
+}
+
+.related-body-item {
+    font-size: 26px;
+    padding: 8px 0;
+    margin: 0 4%;
+    color: #b12704;
+    font-family: 'Scheherazade', serif;
+}
+
+.related-body-title {
+    font-size: 14px;
+    padding: 8px 0;
+    margin: 0 4%;
+}
+
+.review {
+    display: flex;
+    padding: 4px 0;
+    margin: 0 4%;
+}
+
+.small-star {
+    color: #ffa41c;
+    font-size: 14px;
+}

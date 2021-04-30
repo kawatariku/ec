@@ -1,0 +1,26 @@
+#footer {
+    margin-top: 32px;
+    height: 56px;
+    background-color: #c0b5a5;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-list {
+    margin-top: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer-list a {
+    text-decoration-line: none;
+    color: #444444;
+}
+
+.footer-list a:hover {
+    color: #ab6155;
+}

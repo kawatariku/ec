@@ -1,0 +1,105 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+
+.feature {
+    overflow: hidden;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.feature-image {
+    float: right;
+    margin-top: 30px;
+}
+
+.feature-title {
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.feature-title span {
+    display: block;
+    font-size: 56px;
+}
+
+.feature-item {
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.feature-text {
+    max-width: 30%;
+    line-height: 26px;
+}
+
+.recommend {
+    margin-top: 64px;
+}
+
+.recommend-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.recommend-body {
+    margin-top: 24px;
+}
+
+.recommend-body-title {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 88px;
+}
+
+.recommend-body-container {
+    margin-top: 24px;
+    overflow: hidden;
+    background-color: #fafafa;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.recommend-body-image {
+    float: left;
+    padding-right: 5%;
+}
+
+.recommend-body-image img {
+    vertical-align: bottom;
+}
+
+.recommend-body-text {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 95%;
+    margin-top: 10%;
+}
+
+.related {
+    margin-top: 80px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.related-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.related-container {
+    display: flex;
+}
+
+.related-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.related-body-image img {
+    max-width: 98%;
+}

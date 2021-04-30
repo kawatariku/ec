@@ -1,0 +1,28 @@
+#footer {
+    padding-top: 56px;
+    height: 56px;
+    background-color: #c0b5a5;
+    font-family: 'Noto Serif JP', serif;
+    border-top: 1px solid #422719; ;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-list {
+    margin-top: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.footer-list a {
+    text-decoration-line: none;
+    color: #444444;
+}
+
+.footer-list a:hover {
+    color: #ab6155;
+}

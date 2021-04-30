@@ -1,0 +1,122 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+.detail {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.detail-image {
+    margin-left: 14%;
+}
+
+.detail-image img {
+    float: left;
+}
+
+.detail-body {
+    padding-top: 24px;
+    overflow: hidden;
+    background-color: #fafafa;
+    margin-right: 14%;
+}
+
+.detail-body-title {
+    font-size: 32px;
+    margin-left: 14%;
+    margin-bottom: 24px;
+}
+
+
+.detail-body-title span {
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.detail-body-description {
+    font-size: 14px;
+    margin-left: 14%;
+    width: 40%;
+    box-sizing: border-box;
+    line-height: 32px;
+}
+
+.detail-body-description span {
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+
+.detail-body-text {
+    margin-top: 24px;
+    margin-left: 14%;
+    padding-bottom: 50px;
+}
+
+.detail-body-text a {
+    background-color: #800000;
+    text-decoration-color: #800000;
+    color: #fff;
+    padding: 12px 120px;
+}
+
+.summary {
+    margin-top: 64px;
+}
+
+.summary-title {
+    text-align: center;
+    font-size: 26px;
+}
+
+.summary-text {
+    max-width: 73%;
+    text-align: center;
+    margin: 16px auto 0;
+    line-height: 26px;
+}
+
+.writer {
+    margin-top: 64px;
+}
+
+.writer-title {
+    text-align: center;
+    font-size: 26px;
+}
+
+.writer-text {
+    max-width: 73%;
+    text-align: center;
+    margin: 16px auto 0;
+    line-height: 26px;
+}
+
+.others {
+    margin-top: 80px;
+}
+
+.others-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.others-container {
+    display: flex;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.others-body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.others-body-image img {
+    max-width:98%;
+}

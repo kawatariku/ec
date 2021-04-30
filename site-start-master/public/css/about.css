@@ -1,0 +1,58 @@
+@import url("./header.css");
+@import url("./footer.css");
+
+#main {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.about-title {
+    padding-top: 30px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.about-log {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.about-text {
+    margin-top: 32px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.company {
+    margin-bottom: 90px;
+    border-top: 3px solid #c0b5a5;
+}
+
+.table {
+    margin-top: 32px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.company-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 48px;
+}
+
+.table-title {
+    border-bottom: 1px solid #d4cbc9;
+}
+
+
+.table-title {
+    font-size: 20px;
+}
+
+.table-description {
+    padding-bottom: 48px;
+    padding-top: 8px;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+}

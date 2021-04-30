@@ -1,0 +1,31 @@
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+.guid {
+    margin: 30px 18%;
+}
+
+.guid-table {
+    margin-top: 32px;
+}
+
+.guid-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.guid-table-title {
+    border-bottom: 1px solid #d4cbc9;
+}
+
+
+.guid-table-title {
+    font-size: 18px;
+}
+
+.guid-table-description {
+    padding: 36px 0;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+}
