@@ -78,8 +78,7 @@
   }
 
 .tab-content {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin:0 6%;
     margin-top: 32px;
     display: none;
     flex-wrap: wrap;
@@ -101,7 +100,7 @@
 .tab-body-title {
     font-size: 18px;
     padding: 8px 0;
-    margin: 0 4%;
+    margin: 0 auto;
     vertical-align: top;
 }
 
@@ -111,7 +110,7 @@
 
 .tab-body-text {
     font-size: 15px;
-    margin: 0 5%;
+    margin: 0 auto;
 }
 
 .tab-body-item {
@@ -119,7 +118,7 @@
     padding: 8px 0;
     color: #b12704;
     font-family: 'Scheherazade', serif;
-    margin: 0 5%;
+    margin: 0 auto;
 }
 
 .recommend {
@@ -129,9 +128,8 @@
 .recommend-primarytitle {
     font-size: 36px;
     border-bottom: 3px solid #d3cac8;
+    margin: 0 4%;
     color: #0f1127;
-    margin-left: 4%;
-    margin-right: 4%;
     text-align: center;
 }
 
@@ -155,16 +153,17 @@
 
 .recommend-container {
     display: flex;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 16px;
+    padding-top: 16px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 6%;
 }
 
 .recommend-section {
+    width: calc(25%);
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
-    margin-left: auto;
-    margin-right: auto;
     flex-direction: column-reverse;
     text-align: center;
 }
@@ -174,36 +173,48 @@
     padding: 8px 0;
     color: #b12704;
     font-family: 'Scheherazade', serif;
-    margin: 0 5%;
+    margin: 0 auto;
 }
 
 .recommend-text {
     font-size: 15px;
-    margin: 0 5%;
-    vertical-align: top;
+    margin: 0 auto;
+    
 }
 
 .recommend-title {
     font-size: 18px;
     padding: 8px 0;
-    margin: 0 5%;
+    margin: 0 auto;
     vertical-align: top;
+}
+
+.recommend-image{
+    margin: 0 auto;
 }
 
 .recommend-image img {
     max-width: 90%;
+    height: auto;
+}
+
+@media screen and (max-width:800px) {
+    .recommend-section {
+        width: calc(50%);
+  }
 }
 
 .review {
     display: flex;
     padding: 4px 0;
-    margin: 0 5%;
+    margin: 0 auto;
 }
 
 .small-star {
     color: #ffa41c;
     font-size: 14px;
 }
+
 
 .news {
     padding-top: 64px;
@@ -214,7 +225,6 @@
     padding-left: 4%;
     padding-right: 4%;
     font-size: 36px;
-    border-bottom: 3px solid #d3cac8;
     color: #0f1127;
     text-align: center;
 }
@@ -261,4 +271,37 @@
     color: #fff;
     text-decoration-line: none;
     padding: 1% 10%;
+}
+
+@media screen and (max-width:1100px) {
+    .news{
+        padding-top: 48px;
+        height:384px;
+        padding-bottom: 24px;
+    }
+    .news-title{
+        border-bottom: 3px solid #d3cac8;
+        margin: 0 4%;
+    }
+    .info {
+        margin-top: 30px;
+        background-color: #fffff9;
+    }
+    .info-image img {
+     display: none;
+  }
+   .info-body-text{
+      width: 80%;
+      text-align: center;
+      margin: 5% auto;
+  }
+  .info-body-btn{
+     margin-top: 8%;
+     margin-bottom: 72px;
+  }
+
+  .info-body-btn a {
+      padding: 16px 10%;
+
+}
 }

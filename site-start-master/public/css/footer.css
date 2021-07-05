@@ -1,6 +1,6 @@
 #footer {
-    padding-top: 56px;
-    height: 56px;
+    height: 72px;
+    padding-top: 8px;
     background-color: #c0b5a5;
     font-family: 'Noto Serif JP', serif;
     border-top: 1px solid #422719; ;
@@ -10,12 +10,14 @@
     display: flex;
     justify-content: center;
     list-style: none;
+    width: 100%;
 }
 
 .footer-list {
     margin-top: 16px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 4px auto;
+    width: calc(30%);
+    text-align: center;
 }
 
 .footer-list a {

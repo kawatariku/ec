@@ -9,8 +9,9 @@
 .detail {
     padding-top: 64px;
     overflow: hidden;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: auto;   
+    margin-right: auto;
+    max-width: 70%;
     height: auto;
 }
 
@@ -25,19 +26,23 @@
 }
 
 .detail-body-title {
-    font-size: 32px;
-    margin-left: 10%;
+    font-size: 28px;
+    margin-left: 16%;
     padding-bottom: 16px;
+    border-bottom: 2px solid #d3cac8;
+    margin-right: 11%;
 }
 
-.detail-body-title span a {
+.detail-body-title span {
     text-decoration-line: none;
+    font-size: 20px;
+    margin-left: 24px;
 }
 
 .review {
     display: flex;
     padding: 4px 0;
-    margin-left: 10%;
+    margin-left: 16%;
     margin-bottom: 16px;
 }
 
@@ -57,7 +62,7 @@
 .detail-body-description {
     font-size: 18px;
     padding: 8px;
-    margin-left: 10%;
+    margin-left: 16%;
     box-sizing: border-box;
     line-height: 21px;
 }
@@ -71,43 +76,65 @@
 .detail-body-text {
     margin-top: 40px;
     padding-bottom: 32px;
-    margin-left: 10%;
+    margin-left: 16%;
 }
 
-.detail-body-text a {
+.detail-body-text{
     background-color: #b12704;
+    padding: 16px 20%;
+    text-align: center;
+}
+.detail-body-text a {
     text-decoration-color: #b12704;
     color: #fff;
-    padding: 16px 30%;
 }
 
-.more {
-    margin-top: 64px;
-    height: 200px;
+@media screen and (max-width:1080px) { 
+    .detail{
+        max-width: 100%;
+    }
+
+    .detail-image img{
+        float: none;
+        text-align: center;
+        width: 400px;
+        max-width: 80%;
+    }
+    .detail-image{
+        text-align: center;
+    }
+    .detail-body-title{
+        max-width: 100%;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 24px;
+    }
+    .detail-body-description{
+        text-align: left;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+    }
+    .review{
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+    }
+    .detail-body-text  {
+        max-width: 90%;
+        margin: 24px 10% 0;
+        text-align: center;
+    }
 }
 
-.more-title {
-    margin-left: 16%;
-    margin-right: 16%;
-    padding-top: 24px;
-    font-size: 26px;
-    margin-bottom: 16px;
-    border-bottom: 2px solid #d3cac8;
-    text-align: center;
-}
-
-.more-item {
-    text-align: center;
-    font-size: 18px;
-}
 
 .summary {
     margin-top: 64px;
 }
 
 .summary-title {
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 24px;
     font-size: 26px;
     margin-bottom: 40px;
@@ -117,7 +144,7 @@
 
 .summary-text {
     max-width: 68%;
-    margin: 16px auto 0;
+    margin: 15px auto 0;
     line-height: 26px;
 }
 
@@ -126,8 +153,8 @@
 }
 
 .writer-title {
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-size: 26px;
     margin-bottom: 40px;
     border-bottom: 2px solid #d3cac8;
@@ -145,8 +172,8 @@
 }
 
 .others-title {
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-size: 24px;
     margin-bottom: 40px;
     border-bottom: 2px solid #d3cac8;
@@ -156,44 +183,66 @@
 
 .others-container {
     display: flex;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: auto;   
+    margin-right: auto;
+    max-width: 70%;
+    padding-top: 16px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .others-body {
+    width: calc(25%);
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column-reverse;
+    text-align: center;
+}
+.others-body-image{
     margin: 0 auto;
 }
-
 .others-body-image img {
     max-width: 90%;
 }
 
 .others-body-item {
     font-size: 26px;
-    padding: 8px 0;
+    margin: 0 auto;
     color: #b12704;
     font-family: 'Scheherazade', serif;
 }
 
 .others-body-title {
     font-size: 16px;
-    padding: 8px 0;
+    padding: 4px 0;
+    margin: 0 auto;
 }
 
 .others-body-text {
     font-size: 14px;
     padding: 4px 0;
+    margin: 0 auto;
 }
 
 .review2 {
     display: flex;
-    padding: 4px 0;
+
+    margin: 0 auto;
 }
 
 .small-star2 {
     color: #ffa41c;
     font-size: 14px;
+}
+
+@media screen and (max-width:900px) {
+    
+    .others-body-image {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .others-body {
+        width: calc(50%);
+  }
 }

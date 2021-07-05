@@ -125,13 +125,19 @@
 }
 
 .recommend-section {
-    width: 240px;
+    width: calc(25%);
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column-reverse;
-}
+    
+    @media screen and (max-width:800px) { 
+     width: calc(50%);}
+  }
+
+
 
 .recommend-item {
     font-size: 16px;
@@ -142,6 +148,7 @@
     font-size: 16px;
     padding: 8px 0;
 }
+
 
 .news {
     margin-top: 64px;

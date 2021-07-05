@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+.feature-item span {
+    margin-left: 16px;
+}
+
 .feature-text {
     line-height: 28px;
     font-size: 18px;
@@ -84,6 +88,7 @@
 .recommend-body-image {
     float: left;
     padding-right: 5%;
+    max-width: 100%;
 }
 
 .recommend-body-image img {
@@ -94,7 +99,34 @@
     font-size: 16px;
     line-height: 24px;
 }
+@media screen and (max-width:920px){
+    #main{
+        max-width: 100%;
 
+    }
+    .recommend-body-image img{
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        width: 360px;
+        max-width: 100%;
+    }
+    .recommend-body-image{
+        text-align: center;
+        float: none;
+    }
+    .recommend-body-title {
+        font-size: 26px;
+        max-width: 100%;
+        width: 80%;
+        margin: 8px auto 16px;
+        text-align: center;
+    }
+    .recommend-body-text{
+        margin-bottom: 5%;
+    }
+    
+}
 .related {
     margin-top: 80px;
 }
@@ -111,12 +143,18 @@
 
 .related-container {
     display: flex;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: auto;   
+    margin-right: auto;
+    max-width: 70%;
+    padding-top: 16px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .related-body {
+    width: calc(25%);
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column-reverse;
 }
@@ -132,30 +170,66 @@
 .related-body-text {
     font-size: 14px;
     vertical-align: top;
-    margin: 0 4%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .related-body-item {
     font-size: 26px;
-    padding: 8px 0;
-    margin: 0 4%;
+    padding: 0 0 8px;
+    margin: 0 auto;
     color: #b12704;
     font-family: 'Scheherazade', serif;
 }
 
 .related-body-title {
     font-size: 14px;
-    padding: 8px 0;
-    margin: 0 4%;
+    padding: 4px 0;
+    margin: 0 auto;
 }
 
 .review {
     display: flex;
-    padding: 4px 0;
-    margin: 0 4%;
+    padding: 2px 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .small-star {
     color: #ffa41c;
     font-size: 14px;
+}
+
+@media screen and (max-width:1080px) { 
+    .detail{
+        max-width: 100%;
+    }
+
+    .related-body-image img{
+        float: none;
+        text-align: center;
+        width: 400px;
+        max-width: 80%;
+    }
+    .related-body-image{
+        text-align: center;
+    }
+    .related-body-title{
+        max-width: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .review{
+        margin: 0 auto;
+
+    }
+    .related-body-text  {
+        max-width: 90%;
+        margin: 4px auto 0;
+        text-align: center;
+    }
+    .related-body {
+        width: calc(50%);
+  }
 }
